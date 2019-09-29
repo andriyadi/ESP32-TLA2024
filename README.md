@@ -13,3 +13,5 @@ To use the library for ESP32 development using Arduino IDE:
 * Clone this repo under Arduino IDE `libraries` folder
 * Open example provided
 
+## Credit
+The library is inspired by [this one](https://github.com/smaug-g/TLA2024/tree/master/lib/TLA2024). Thanks [@smaug-g](https://github.com/smaug-g)!
