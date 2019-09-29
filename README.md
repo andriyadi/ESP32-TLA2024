@@ -1,5 +1,5 @@
 # ESP32-TLA2024
-A library for ADC TLA2024 targeted for Arduino and ESP32. With minor changes you can use it for other MCUs, as long as using Arduino framework.
+A library for I2C ADC chip [**TLA2024**](http://www.ti.com/product/TLA2024) targeted for ESP32 microcontroller and Arduino framework. With minor changes you can use it for other MCUs, as long as you use Arduino framework.
 
 ## Using
 
