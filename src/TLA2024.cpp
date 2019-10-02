@@ -250,7 +250,8 @@ float TLA2024::getCurrentFullRangeVoltage() {
 float TLA2024::voltageRead(uint8_t channel) {
     float val = analogRead(channel);
     float fsrV = getCurrentFullRangeVoltage();
-    long converted = map((long)val, -2048, 2047, 0, fsrV*1000 );
+//    long converted = map((long)val, -2048, 2047, 0, fsrV*1000 );
+    long converted = map((long)val, 0, 2047, 0, fsrV*1000 );
 //    Serial.printf("fsrV = %.4f, mapped = %lu\n", fsrV, converted);
 
     float convF = converted*1.0f/1000;
