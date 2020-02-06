@@ -51,6 +51,7 @@ public:
          false - otherwise
     */
     bool begin();
+    bool begin(uint8_t address);
 
     // Resets device to default configuration
     void reset();
