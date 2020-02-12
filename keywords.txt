@@ -1,0 +1,26 @@
+#######################################
+# Classes, datatypes (KEYWORD1)
+#######################################
+
+TLA2024	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+reset	KEYWORD2
+restore	KEYWORD2
+analogRead	KEYWORD2
+analogRead	KEYWORD2
+setFullScaleRange	KEYWORD2
+setMuxConfig	KEYWORD2
+setOperatingMode	KEYWORD2
+setDataRate	KEYWORD2
+voltageRead	KEYWORD2
+getCurrentFullRangeVoltage	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

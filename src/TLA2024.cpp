@@ -20,6 +20,11 @@ bool TLA2024::begin() {
     return (init == initConf_) ? true : false;
 }
 
+bool TLA2024::begin(uint8_t address){
+    addr = address;
+    begin();
+}
+
 uint16_t TLA2024::read(uint8_t mem_addr) {
     devI2C_->beginTransmission(addr);
     devI2C_->write(mem_addr);
