@@ -22,7 +22,7 @@ bool TLA2024::begin() {
 
 bool TLA2024::begin(uint8_t address){
     addr = address;
-    begin();
+    return begin();
 }
 
 uint16_t TLA2024::read(uint8_t mem_addr) {
